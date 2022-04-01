@@ -1,36 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>7DaysOfCode - Day02</title>
+    <title> 7DaysOfCode - Day2 </title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@0,300;0,400;0,700;1,400&display=swap"         rel="stylesheet">
 </head>
 <body>
-    
-    <fieldset class = "questionario">
-        <legend><h1>Questionário DEV</h1></legend>
-        <div class="container">
-            <h2>Olá, DEV!</h2>
-            <form id="form-enviar" autocomplete="yes">
-                <label for="input-nome">- Qual o seu nome?</label>
-                <input type="text" id="input-nome" required>
-                <label for="input-idade">- Quantos anos você tem?</label>
-                <input type="number" id="input-idade" required>
-                <label for="input-idade">- Qual linguagem de programação você está estudando?</label>
-                <input type="text" id="input-linguagem" required>
-                
-                <button form="form-enviar" type="button" onclick="mandarMsg()">Enviar</button>
-                <div id="mensagem-ola"></div>
-                <div id="resposta"></div>         
-            </form>
-    
+  <fieldset class = "questionario">
+    <legend><h1>Questionário DEV</h1></legend>
+      <div class="container">
+          <h2>Olá dev!</h2>
+          <form id="form-ola" autocomplete="off">
+              <label for="input-nome">- Qual o seu nome?</label>
+              <input type="text" id="input-nome" required>
+              <label for="input-idade"> - Quantos anos você tem?</label>
+              <input type="number" id="input-idade" required>
+              <label for="input-idade"> - Qual linguagem de programação você está estudando?</label>
+              <input type="text" id="input-linguagem" required>
+              
+              <button form="form-ola" type="button" onclick="mandarMsg()"> Enviar </button>
             
-            
-        </div>
-    </fieldset>
-    
+              <div id="mensagem-ola"></div>
+              <div id="resposta"></div>         
+          </form>
+       
+      </div>
+  </fieldset>  
+    <script src="script.js"></script>
 </body>
 </html>

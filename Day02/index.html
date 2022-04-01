@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7DaysOfCode - Day02</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js"></script>
+</head>
+<body>
+    
+    <fieldset class = "questionario">
+        <legend><h1>Questionário DEV</h1></legend>
+        <div class="container">
+            <h2>Olá, DEV!</h2>
+            <form id="form-enviar" autocomplete="yes">
+                <label for="input-nome">- Qual o seu nome?</label>
+                <input type="text" id="input-nome" required>
+                <label for="input-idade">- Quantos anos você tem?</label>
+                <input type="number" id="input-idade" required>
+                <label for="input-idade">- Qual linguagem de programação você está estudando?</label>
+                <input type="text" id="input-linguagem" required>
+                
+                <button form="form-enviar" type="button" onclick="mandarMsg()">Enviar</button>
+                <div id="mensagem-ola"></div>
+                <div id="resposta"></div>         
+            </form>
+    
+            
+            
+        </div>
+    </fieldset>
+    
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7DaysOfCode - Dia 7</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <h2>#7DaysOfCode - Dia 7</h2>
+    <section class="section">
+      <div class="wrapper">
+        <h2>Calculadora Simples</h2>
+        <div id="calculadora">
+          <input type="text" id="tela" autocomplete="off">
+          <div id="buttons">
+          <button onclick="clearTela(true)">C</button>
+          <button onclick="operation('/')">/</button>
+          <button onclick="operation('*')">*</button>
+          <button onclick="operation('-')">-</button>
+          
+          <button onclick="insertNum(7)">7</button>
+          <button onclick="insertNum(8)">8</button>
+          <button onclick="insertNum(9)">9</button>
+          <button onclick="operation('+')">+</button>
+            
+          <button onclick="insertNum(4)">4</button>
+          <button onclick="insertNum(5)">5</button>
+          <button onclick="insertNum(6)">6</button>
+            
+          <button onclick="insertNum(1)">1</button>
+          <button onclick="insertNum(2)">2</button>
+          <button onclick="insertNum(3)">3</button>
+          <button onclick="result()">=</button>
+          
+          <button onclick="insertNum(0)">0</button>
+          <button onclick="insertNum('.')">.</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./script.js"></script>
+
+  </body>
+  
+</html>
